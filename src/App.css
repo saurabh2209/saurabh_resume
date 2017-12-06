@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+/*commons */
+.title{
+  padding: 10px 0; 
+  text-align: center;
+  font-size: 40px;
+ }
+
+/*-------NAVIGATION--------- */
+
+.nav-link{
+  transition: all ease .6s;
+  padding: 0 5px;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+/*--------------BANNER----------------*/
+
+.banner{
+  width: 100%;
+  background-color: #eaecef;
+  padding: 30px 0;
+  text-align: center;
+  border-top:  .01em solid #9d9d9c;
+  border-bottom: .01em solid #9d9d9c;
+}
+
+.name{
+  font-size:  2.5em;
+  font-weight: 600
+}
+
+.line{
+  font-size: 1.1em;
+  color: #333;
+  font-weight: 400
+}
+.profile_img{
+  width: 170px;
+  height: 170px;
+  border-radius: 500px;
+  transition: all ease .5s;
+}
+
+.profile_img:hover{
+  border: 5px solid #869aba; 
+}
+
+.banner_icons{
+  margin: 0 10px;
+}
+/*----------EDUCATION-----------*/
+
+section{
+  border-bottom: 1px solid #efefea;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.edu-card{
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 3px solid #efefea;
+  border-right: 3px solid #efefea;
+}
+
+.degree-title{
+  font-weight: 600;
+  font-size: 18px;
+} 
+
+
+/*----------SKILLS-----------*/
+
+.skills{
+  border-bottom: 1px solid #efefea;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.badge{
+  background: #869aba !important;
+  font-size: 15px !important;
+  padding: 7px !important;
+  margin: 5px;
+}
+
+.skill-wrap{
+  margin-top: 10px;
+}
+
+.heading{
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/*--------------WORK EXPERIENCE-----------------*/
+.work-card{
+  margin: 10px 0;
+  padding: 20px
+}
+.work_card_title_wrap{
+  border-bottom: 3px solid #9d9d9c;   
+}
+
+.work_card_title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  color: #869aba;
+}
+
+.work_list{
+  list-style-type: square;
+  line-height: 2;
+  padding-left: 1.2em;
+}
+
+
+/*----------PROJECTS-------------*/
+
+.project_card{
+  margin: 10px 0;
+}
+
+.project_card_title{
+  color: #869aba;
+}
+
+.project_env{
+  margin-bottom: 20px !important;
+}
